@@ -1,16 +1,5 @@
-#menu {
-	width: 500px;
-	height: 600px;
-	background-image: url("background/birds.png");
-	background-repeat: no-repeat;
-
-	font-size: 14px;
-	color: rgb(100, 100, 100);
-}
 /*styles du menu de gauche*/
 #menu_left {
-
-
 	width: 160px;
 	position: relative;
 }
@@ -40,6 +29,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfcfcf', end
 	top: 5px;
 	left: 5px;
 	line-height: 100px
+	
 }
 
 #mail_info {
@@ -104,26 +94,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfcfcf', end
 	line-height: 15px;
 } 
 
-/* partie droite du menu principal*/
-#menu_right {
-	position:absolute;
-	width: 300px;
-	left: 165px;
-}
-/*styles du panneau recherche et du logo*/
-#menu_top {
-	display: inline-block;
-}
-
-#menu_search_tool {
-	position: absolute;
-	top:40px;
-	left: -30px;
-
-}
 /* 
 styles du sous menu projet
 */
+#menu_expanded {
+    display: block;
+	position: absolute;
+	width: 150px;
+	top: 100px;
+	left: 180px;
+}
 .sub_menu_project {
 	display: block;
+	text-align: center;
+	margin: 5px;
 }

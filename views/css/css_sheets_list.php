@@ -3,3 +3,4 @@ peut etre sera t'il nécessaire de créer du code pour charger uniquement celles
 
 <link rel="stylesheet" type="text/css" href="views/css/general.css">
 <link rel="stylesheet" type="text/css" href="views/css/menu.css">
+<link rel="stylesheet" type="text/css" href="views/css/search_menu.css">
