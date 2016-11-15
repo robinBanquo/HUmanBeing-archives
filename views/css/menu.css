@@ -1,0 +1,129 @@
+#menu {
+	width: 500px;
+	height: 600px;
+	background-image: url("background/birds.png");
+	background-repeat: no-repeat;
+
+	font-size: 14px;
+	color: rgb(100, 100, 100);
+}
+/*styles du menu de gauche*/
+#menu_left {
+
+
+	width: 160px;
+	position: relative;
+}
+
+/*le menu avec tout les gros bouttons a gauche*/
+.big_menu_button {
+	border-radius: 100%;
+	display: block;
+	position: absolute;
+	text-align: center;
+ 	box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, 1);
+ 	text-shadow: 0 0 0.2em rgba(100,100,100,0.5);
+ 	/* petit effet dégradé pour le boutton */
+ 	background: rgba(207,207,207,1);
+background: -moz-radial-gradient(center, ellipse cover, rgba(207,207,207,1) 0%, rgba(207,207,207,0.91) 19%, rgba(237,237,237,0.63) 74%, rgba(237,237,237,0.5) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(207,207,207,1)), color-stop(19%, rgba(207,207,207,0.91)), color-stop(74%, rgba(237,237,237,0.63)), color-stop(100%, rgba(237,237,237,0.5)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(207,207,207,1) 0%, rgba(207,207,207,0.91) 19%, rgba(237,237,237,0.63) 74%, rgba(237,237,237,0.5) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgba(207,207,207,1) 0%, rgba(207,207,207,0.91) 19%, rgba(237,237,237,0.63) 74%, rgba(237,237,237,0.5) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(207,207,207,1) 0%, rgba(207,207,207,0.91) 19%, rgba(237,237,237,0.63) 74%, rgba(237,237,237,0.5) 100%);
+background: radial-gradient(ellipse at center, rgba(207,207,207,1) 0%, rgba(207,207,207,0.91) 19%, rgba(237,237,237,0.63) 74%, rgba(237,237,237,0.5) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfcfcf', endColorstr='#ededed', GradientType=1 );
+}
+
+#profile_button {
+	width: 100px;
+	height: 100px;
+	top: 5px;
+	left: 5px;
+	line-height: 100px
+}
+
+#mail_info {
+	width: 40px;
+	height: 40px;
+	line-height: 30px;
+	right: 20px;
+
+}
+
+#my_projects_button {
+	width: 90px;
+	height: 90px;
+	top: 90px;
+	right: 0px;
+	line-height: 90px;
+}
+
+#agenda_button {
+	width: 60px;
+	height: 60px;
+	top: 110px;
+	line-height: 60px
+}
+
+#resources_button {
+	width: 100px;
+	height: 100px;
+	top: 180px;
+	left: 10px;
+	line-height: 100px
+}
+#ressources_info {
+	width: 15px;
+	height: 15px;
+	top: 190px;
+	left:100px;
+	line-height: 15px;
+} 
+
+#moderation_button {
+	width: 90px;
+	height: 90px;
+	top: 290px;
+	right: 10px;
+	line-height: 90px
+}
+
+#moderation_info_1 {
+	width: 15px;
+	height: 15px;
+	top: 290px;
+	right: 85px;
+	line-height: 15px;
+} 
+
+#moderation_info_2 {
+	width: 15px;
+	height: 15px;
+	top: 320px;
+	right: 100px;
+	line-height: 15px;
+} 
+
+/* partie droite du menu principal*/
+#menu_right {
+	position:absolute;
+	width: 300px;
+	left: 165px;
+}
+/*styles du panneau recherche et du logo*/
+#menu_top {
+	display: inline-block;
+}
+
+#menu_search_tool {
+	position: absolute;
+	top:40px;
+	left: -30px;
+
+}
+/* 
+styles du sous menu projet
+*/
+.sub_menu_project {
+	display: block;
+}
