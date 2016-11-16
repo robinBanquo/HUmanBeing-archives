@@ -36,7 +36,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfcfcf', end
 	width: 40px;
 	height: 40px;
 	line-height: 30px;
-	right: 20px;
+	right: 10px;
+	top: 45px;
 
 }
 
@@ -100,9 +101,9 @@ styles du sous menu projet
 #menu_expanded {
     display: block;
 	position: absolute;
-	width: 150px;
-	top: 100px;
-	left: 180px;
+	width: 160px;
+	top: 50px;
+	left: 170px;
 }
 .sub_menu_project {
 	display: block;

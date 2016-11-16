@@ -1,0 +1,33 @@
+/*feuille de style gétant la page de connection*/
+#info_search {
+	position: absolute;
+	top:50px;
+	left: 25px;
+	width: 290px;
+	background-color: rgba(255, 255,255,0.5);
+	padding: 5px;
+}
+#bienvenue_text{
+
+}
+
+#connexion {
+	position: absolute;
+	margin: auto;
+	 top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+	width: 290px;
+	height: 200px;
+	background-color: rgba(255, 255,255,0.5);
+	padding: 5px;
+}
+
+#log_in {
+
+}
+
+#sign_in {
+
+}

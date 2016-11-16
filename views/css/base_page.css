@@ -6,8 +6,13 @@ border: 1px solid rgba(0, 0, 0, 0.3);
 	font-family: Verdana, Geneva, sans-serif;
 }
 
+
 body {
 	margin: 0px;
+	height: 100%;
+	color: rgb(100, 100, 100);
+	font-size: 14px;
+
 
 	/*dégradé*/
 background: rgba(161,161,161,1);
@@ -18,4 +23,38 @@ background: -o-linear-gradient(45deg, rgba(161,161,161,1) 0%, rgba(219,219,219,1
 background: -ms-linear-gradient(45deg, rgba(161,161,161,1) 0%, rgba(219,219,219,1) 35%, rgba(255,255,255,1) 65%, rgba(230,230,230,1) 79%, rgba(228,228,228,1) 80%, rgba(184,184,184,1) 100%);
 background: linear-gradient(45deg, rgba(161,161,161,1) 0%, rgba(219,219,219,1) 35%, rgba(255,255,255,1) 65%, rgba(230,230,230,1) 79%, rgba(228,228,228,1) 80%, rgba(184,184,184,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a1a1a1', endColorstr='#b8b8b8', GradientType=1 );
+}
+/*conteneur comprenant l'image des oiseaux, le menu de recherche, et le logo*/
+#search_menu {
+	width: 500px;
+	height: 600px;
+	background-image: url("background/birds.png");
+	background-repeat: no-repeat;
+}	
+
+/* conteneur comprenant juste l'outil recherche et le logo*/
+#general_header {
+	position:absolute;
+	width: 300px;
+	top:0px;
+	left: 110px;
+}
+/*styles du panneau recherche et du logo*/
+
+#menu_search_tool {
+	position: absolute;
+	width: 180px;
+	top: 12px;
+}
+
+#search_button {
+	position: absolute;
+	left:190px;
+	top:10px;
+}
+/*logo qui renvoie ver la page d'acceuil (log page si pas identifié, navigation si déja identifié)*/
+#homepage {
+	position: absolute;
+	top:5px;
+	right: 0px;
 }

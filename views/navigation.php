@@ -4,6 +4,6 @@
 	<body>
 		<?php 
 		include("views/menu.php") ; 
-		include("views/search_menu.php")?> 
+		include("views/base_page.php");?> 
 	</body>
 </html>
