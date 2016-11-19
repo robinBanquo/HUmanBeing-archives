@@ -8,9 +8,7 @@ border: 1px solid rgba(0, 0, 0, 0.3);
 
 
 body {
-	 min-width:1200px;         
- width: auto !important;   /* Firefox will set width as auto */
- width:1200px;             /* As IE ignores !important it will set width as 1000px; */
+          /* As IE ignores !important it will set width as 1000px; */
 
 	margin: 0px;
 	height: 100%;

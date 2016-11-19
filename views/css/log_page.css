@@ -1,4 +1,9 @@
 /*feuille de style gétant la page de connection*/
+#container {
+	 min-width:900px;         
+ 
+}
+
 #info_search {
 	position: absolute;
 	top:50px;

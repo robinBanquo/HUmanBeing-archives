@@ -1,7 +1,8 @@
 /*styles du menu de gauche*/
 #menu_left {
 	width: 160px;
-	position: relative;
+	position: absolute;
+	top: 0px;
 }
 
 /*le menu avec tout les gros bouttons a gauche*/
@@ -56,7 +57,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfcfcf', end
 	line-height: 60px
 }
 
-#resources_button {
+#ressources_button {
 	width: 100px;
 	height: 100px;
 	top: 180px;
@@ -98,14 +99,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfcfcf', end
 /* 
 styles du sous menu projet
 */
-#menu_expanded {
+.menu_expanded {
     display: block;
 	position: absolute;
 	width: 160px;
 	top: 50px;
 	left: 170px;
 }
-.sub_menu_project {
+.sub_menu_item {
 	display: block;
 	text-align: center;
 	margin: 5px;

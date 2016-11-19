@@ -1,3 +1,3 @@
 <?php
-  include('views/log_page.php')
+  include('views/navigation.php')
 ?>
