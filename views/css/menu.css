@@ -1,117 +1,213 @@
 /*styles du menu de gauche*/
+
 #menu_left {
-	width: 160px;
-	position: absolute;
-	top: 0px;
+    width: 160px;
+    position: absolute;
+    top: 0px;
 }
 
+
 /*le menu avec tout les gros bouttons a gauche*/
+
 .big_menu_button {
-	border-radius: 100%;
-	display: block;
-	position: absolute;
-	text-align: center;
- 	box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, 1);
- 	text-shadow: 0 0 0.2em rgba(100,100,100,0.5);
- 	/* petit effet dégradé pour le boutton */
- 	background: rgba(207,207,207,1);
-background: -moz-radial-gradient(center, ellipse cover, rgba(207,207,207,1) 0%, rgba(207,207,207,0.91) 19%, rgba(237,237,237,0.63) 74%, rgba(237,237,237,0.5) 100%);
-background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(207,207,207,1)), color-stop(19%, rgba(207,207,207,0.91)), color-stop(74%, rgba(237,237,237,0.63)), color-stop(100%, rgba(237,237,237,0.5)));
-background: -webkit-radial-gradient(center, ellipse cover, rgba(207,207,207,1) 0%, rgba(207,207,207,0.91) 19%, rgba(237,237,237,0.63) 74%, rgba(237,237,237,0.5) 100%);
-background: -o-radial-gradient(center, ellipse cover, rgba(207,207,207,1) 0%, rgba(207,207,207,0.91) 19%, rgba(237,237,237,0.63) 74%, rgba(237,237,237,0.5) 100%);
-background: -ms-radial-gradient(center, ellipse cover, rgba(207,207,207,1) 0%, rgba(207,207,207,0.91) 19%, rgba(237,237,237,0.63) 74%, rgba(237,237,237,0.5) 100%);
-background: radial-gradient(ellipse at center, rgba(207,207,207,1) 0%, rgba(207,207,207,0.91) 19%, rgba(237,237,237,0.63) 74%, rgba(237,237,237,0.5) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfcfcf', endColorstr='#ededed', GradientType=1 );
+    border-radius: 100%;
+    display: block;
+    position: absolute;
+    text-align: center;
+    box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, 1);
+    text-shadow: 0 0 0.2em rgba(100, 100, 100, 0.5);
+    /* petit effet dégradé pour le boutton */
+    background: rgba(207, 207, 207, 1);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(207, 207, 207, 1) 0%, rgba(207, 207, 207, 0.91) 19%, rgba(237, 237, 237, 0.63) 74%, rgba(237, 237, 237, 0.5) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(207, 207, 207, 1)), color-stop(19%, rgba(207, 207, 207, 0.91)), color-stop(74%, rgba(237, 237, 237, 0.63)), color-stop(100%, rgba(237, 237, 237, 0.5)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(207, 207, 207, 1) 0%, rgba(207, 207, 207, 0.91) 19%, rgba(237, 237, 237, 0.63) 74%, rgba(237, 237, 237, 0.5) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(207, 207, 207, 1) 0%, rgba(207, 207, 207, 0.91) 19%, rgba(237, 237, 237, 0.63) 74%, rgba(237, 237, 237, 0.5) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(207, 207, 207, 1) 0%, rgba(207, 207, 207, 0.91) 19%, rgba(237, 237, 237, 0.63) 74%, rgba(237, 237, 237, 0.5) 100%);
+    background: radial-gradient(ellipse at center, rgba(207, 207, 207, 1) 0%, rgba(207, 207, 207, 0.91) 19%, rgba(237, 237, 237, 0.63) 74%, rgba(237, 237, 237, 0.5) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#cfcfcf', endColorstr='#ededed', GradientType=1);
+    /*police utilisée*/
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: 500;
+    line-height: 23px;
 }
 
 #profile_button {
-	width: 100px;
-	height: 100px;
-	top: 5px;
-	left: 5px;
-	line-height: 100px
-	
+    width: 100px;
+    height: 100px;
+    top: 5px;
+    left: 5px;
+    line-height: 100px
 }
-#profile_button:hover {
-	box-shadow: 0px 0px 3px 3px rgba(0, 0, 255, 1);
 
+#profile_button:hover {
+	border: 1px solid rgba(212, 230, 241, 1);
+    box-shadow: 0px 0px 3px 3px rgba(212, 230, 241, 1);
+	text-shadow: 0 0 5px rgba(100, 100, 100, 0.5);
 }
 
 #mail_info {
-	width: 40px;
-	height: 40px;
-	line-height: 30px;
-	right: 10px;
-	top: 45px;
+    width: 40px;
+    height: 40px;
+    line-height: 30px;
+    right: 10px;
+    top: 45px;
+}
 
+#mail_info:hover {
+	border: 1px solid rgba(246, 221, 204, 1);
+    box-shadow: 0px 0px 3px 3px rgba(246, 221, 204, 1);
+	text-shadow: 0 0 5px rgba(246, 221, 204, 1);
 }
 
 #my_projects_button {
-	width: 90px;
-	height: 90px;
-	top: 90px;
-	right: 0px;
-	line-height: 90px;
+    width: 90px;
+    height: 90px;
+    top: 90px;
+    right: 0px;
+    line-height: 90px;
+}
+
+#my_projects_button:hover {
+	border: 1px solid rgba(242, 215, 213, 1);
+    box-shadow: 0px 0px 3px 3px rgba(242, 215, 213, 1);
+	text-shadow: 0 0 5px rgba(242, 215, 213, 1);
 }
 
 #agenda_button {
-	width: 60px;
-	height: 60px;
-	top: 110px;
-	line-height: 60px
+    width: 60px;
+    height: 60px;
+    top: 110px;
+    line-height: 60px
+}
+
+#agenda_button:hover {
+	border: 1px solid rgba(252, 243, 207, 1);
+    box-shadow: 0px 0px 3px 3px rgba(252, 243, 207, 1);
+	text-shadow: 0 0 5px rgba(252, 243, 207, 1);
 }
 
 #ressources_button {
-	width: 100px;
-	height: 100px;
-	top: 180px;
-	left: 10px;
-	line-height: 100px
+    width: 100px;
+    height: 100px;
+    top: 180px;
+    left: 10px;
+    line-height: 100px
 }
+
+#ressources_button:hover {
+	border: 1px solid rgba(212, 239, 223, 1);
+    box-shadow: 0px 0px 3px 3px rgba(212, 239, 223, 1);
+	text-shadow: 0 0 5px rgba(212, 239, 223, 1);
+}
+
 #ressources_info {
-	width: 15px;
-	height: 15px;
-	top: 190px;
-	left:100px;
-	line-height: 15px;
-} 
+    width: 15px;
+    height: 15px;
+    top: 190px;
+    left: 100px;
+    line-height: 15px;
+}
 
 #moderation_button {
-	width: 90px;
-	height: 90px;
-	top: 290px;
-	right: 10px;
-	line-height: 90px
+    width: 100px;
+    height: 100px;
+    top: 290px;
+    right: 10px;
+    line-height: 100px
+}
+
+#moderation_button:hover {
+	border: 1px solid rgba(235, 222, 240);
+    box-shadow: 0px 0px 3px 3px rgba(235, 222, 240, 1);
+	text-shadow: 0 0 5px rgba(235, 222, 240, 1);
 }
 
 #moderation_info_1 {
-	width: 15px;
-	height: 15px;
-	top: 290px;
-	right: 85px;
-	line-height: 15px;
-} 
+    width: 15px;
+    height: 15px;
+    top: 287px;
+    right: 90px;
+    line-height: 15px;
+}
 
 #moderation_info_2 {
-	width: 15px;
-	height: 15px;
-	top: 320px;
-	right: 100px;
-	line-height: 15px;
-} 
+    width: 15px;
+    height: 15px;
+    top: 315px;
+    right: 108px;
+    line-height: 15px;
+}
 
-/* 
+
+/*
 styles du sous menu projet
 */
+
 .menu_expanded {
     display: block;
-	position: absolute;
-	width: 160px;
-	top: 50px;
-	left: 170px;
+    position: absolute;
+    width: 160px;
+    top: 50px;
+    left: 170px;
 }
+
 .sub_menu_item {
-	display: block;
-	text-align: center;
-	margin: 5px;
+    display: block;
+    text-align: center;
+    margin: 5px;
+    /*polices du sous menu*/
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 23px;
+}
+
+.sub_menu_item:hover {
+	text-shadow: 0 0 0.2em white;
+}
+
+.sub_menu_item a {
+    color: rgb(100, 100, 100);
+    text-decoration: none;
+}
+
+.sub_menu_item a:hover {
+    text-decoration: none;
+}
+
+.sub_menu_item {
+    box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, 1);
+    text-shadow: 0 0 0.2em rgba(100, 100, 100, 0.5);
+    /* petit effet dégradé pour le boutton */
+    background: rgba(207, 207, 207, 1);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(207, 207, 207, 1) 0%, rgba(207, 207, 207, 0.91) 19%, rgba(237, 237, 237, 0.63) 74%, rgba(237, 237, 237, 0.5) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(207, 207, 207, 1)), color-stop(19%, rgba(207, 207, 207, 0.91)), color-stop(74%, rgba(237, 237, 237, 0.63)), color-stop(100%, rgba(237, 237, 237, 0.5)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(207, 207, 207, 1) 0%, rgba(207, 207, 207, 0.91) 19%, rgba(237, 237, 237, 0.63) 74%, rgba(237, 237, 237, 0.5) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(207, 207, 207, 1) 0%, rgba(207, 207, 207, 0.91) 19%, rgba(237, 237, 237, 0.63) 74%, rgba(237, 237, 237, 0.5) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(207, 207, 207, 1) 0%, rgba(207, 207, 207, 0.91) 19%, rgba(237, 237, 237, 0.63) 74%, rgba(237, 237, 237, 0.5) 100%);
+    background: radial-gradient(ellipse at center, rgba(207, 207, 207, 1) 0%, rgba(207, 207, 207, 0.91) 19%, rgba(237, 237, 237, 0.63) 74%, rgba(237, 237, 237, 0.5) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#cfcfcf', endColorstr='#ededed', GradientType=1);
+}
+
+/*coloration du menu extended en fonction de ce qui à été cliqué*/
+#profile_menu {
+	border: 2px solid rgba(212, 230, 241, 1);
+}
+
+
+#my_projects_menu {
+	border: 2px solid rgba(242, 215, 213, 1);
+}
+
+#ressources_menu {
+	border: 2px solid rgba(212, 239, 223, 1);
+}
+
+#moderation_menu {
+	border: 2px solid rgba(235, 222, 240, 1);
 }

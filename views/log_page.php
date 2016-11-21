@@ -13,7 +13,7 @@
 
 		<div id="info_search">
 
-			vous pouvez effectuer des recherches parmis les profils utilisateurs et les projets qui ont fait le choix d'etre visibles aux utilisateurs non-inscrits
+			<p>vous pouvez effectuer des recherches parmis les profils utilisateurs et les projets qui ont fait le choix d'etre visibles aux utilisateurs non-inscrits</p>
 		</div>
 
 		<div id="bienvenue_text">

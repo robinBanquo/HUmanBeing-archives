@@ -30,5 +30,5 @@ $(document).ready(function(){
 		$(".big_menu_button").css("text-shadow", $initial_text_shadow);//on réinitialise la couleur de tout les bouttons
 		$( this ).css("text-shadow", "0 0 30px rgba(0,200,0,0.7)");
 	});
+	$(.menu_expanded).show();
 });
-

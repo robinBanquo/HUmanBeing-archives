@@ -1,62 +1,115 @@
 @CHARSET "UTF-8";
 
 * {
-border: 1px solid rgba(0, 0, 0, 0.3);
- /*petites bordures de construction à enlever par la suite*/
-	font-family: Verdana, Geneva, sans-serif;
+   border: 1px rgba(0, 0, 0, 0.4)
+    /*petites bordures de construction à enlever par la suite*/
 }
-
-
 body {
-          /* As IE ignores !important it will set width as 1000px; */
-
-	margin: 0px;
-	height: 100%;
-	color: rgb(100, 100, 100);
-	font-size: 13px;
-
-
-	/*dégradé*/
-background: rgba(161,161,161,1);
-background: -moz-linear-gradient(45deg, rgba(161,161,161,1) 0%, rgba(219,219,219,1) 35%, rgba(255,255,255,1) 65%, rgba(230,230,230,1) 79%, rgba(228,228,228,1) 80%, rgba(184,184,184,1) 100%);
-background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(161,161,161,1)), color-stop(35%, rgba(219,219,219,1)), color-stop(65%, rgba(255,255,255,1)), color-stop(79%, rgba(230,230,230,1)), color-stop(80%, rgba(228,228,228,1)), color-stop(100%, rgba(184,184,184,1)));
-background: -webkit-linear-gradient(45deg, rgba(161,161,161,1) 0%, rgba(219,219,219,1) 35%, rgba(255,255,255,1) 65%, rgba(230,230,230,1) 79%, rgba(228,228,228,1) 80%, rgba(184,184,184,1) 100%);
-background: -o-linear-gradient(45deg, rgba(161,161,161,1) 0%, rgba(219,219,219,1) 35%, rgba(255,255,255,1) 65%, rgba(230,230,230,1) 79%, rgba(228,228,228,1) 80%, rgba(184,184,184,1) 100%);
-background: -ms-linear-gradient(45deg, rgba(161,161,161,1) 0%, rgba(219,219,219,1) 35%, rgba(255,255,255,1) 65%, rgba(230,230,230,1) 79%, rgba(228,228,228,1) 80%, rgba(184,184,184,1) 100%);
-background: linear-gradient(45deg, rgba(161,161,161,1) 0%, rgba(219,219,219,1) 35%, rgba(255,255,255,1) 65%, rgba(230,230,230,1) 79%, rgba(228,228,228,1) 80%, rgba(184,184,184,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a1a1a1', endColorstr='#b8b8b8', GradientType=1 );
+    margin: 0px;
+    height: 100%;
+    color: rgb(100, 100, 100);
+    /*dégradé*/
+    background: rgba(161, 161, 161, 1);
+    background: -moz-linear-gradient(45deg, rgba(161, 161, 161, 1) 0%, rgba(219, 219, 219, 1) 35%, rgba(255, 255, 255, 1) 65%, rgba(230, 230, 230, 1) 79%, rgba(228, 228, 228, 1) 80%, rgba(184, 184, 184, 1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(161, 161, 161, 1)), color-stop(35%, rgba(219, 219, 219, 1)), color-stop(65%, rgba(255, 255, 255, 1)), color-stop(79%, rgba(230, 230, 230, 1)), color-stop(80%, rgba(228, 228, 228, 1)), color-stop(100%, rgba(184, 184, 184, 1)));
+    background: -webkit-linear-gradient(45deg, rgba(161, 161, 161, 1) 0%, rgba(219, 219, 219, 1) 35%, rgba(255, 255, 255, 1) 65%, rgba(230, 230, 230, 1) 79%, rgba(228, 228, 228, 1) 80%, rgba(184, 184, 184, 1) 100%);
+    background: -o-linear-gradient(45deg, rgba(161, 161, 161, 1) 0%, rgba(219, 219, 219, 1) 35%, rgba(255, 255, 255, 1) 65%, rgba(230, 230, 230, 1) 79%, rgba(228, 228, 228, 1) 80%, rgba(184, 184, 184, 1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(161, 161, 161, 1) 0%, rgba(219, 219, 219, 1) 35%, rgba(255, 255, 255, 1) 65%, rgba(230, 230, 230, 1) 79%, rgba(228, 228, 228, 1) 80%, rgba(184, 184, 184, 1) 100%);
+    background: linear-gradient(45deg, rgba(161, 161, 161, 1) 0%, rgba(219, 219, 219, 1) 35%, rgba(255, 255, 255, 1) 65%, rgba(230, 230, 230, 1) 79%, rgba(228, 228, 228, 1) 80%, rgba(184, 184, 184, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#a1a1a1', endColorstr='#b8b8b8', GradientType=1);
 }
 /*conteneur comprenant l'image des oiseaux, le menu de recherche, et le logo*/
-#search_menu {
-	width: 500px;
-	height: 600px;
-	background-image: url("background/birds.png");
-	background-repeat: no-repeat;
-}	
 
+#search_menu {
+    width: 500px;
+    height: 600px;
+    background-image: url("background/birds.png");
+    background-repeat: no-repeat;
+}
 /* conteneur comprenant juste l'outil recherche et le logo*/
+
 #general_header {
-	position:absolute;
-	width: 300px;
-	top:0px;
-	left: 110px;
+    position: absolute;
+    width: 300px;
+    top: 0px;
+    left: 110px;
 }
 /*styles du panneau recherche et du logo*/
 
 #menu_search_tool {
-	position: absolute;
-	width: 180px;
-	top: 12px;
+    position: absolute;
+    width: 180px;
+    top: 12px;
 }
-
 #search_button {
-	position: absolute;
-	left:190px;
-	top:10px;
+    position: absolute;
+    left: 190px;
+    top: 10px;
 }
 /*logo qui renvoie ver la page d'acceuil (log page si pas identifié, navigation si déja identifié)*/
+
 #homepage {
-	position: absolute;
-	top:5px;
-	right: 0px;
+    position: absolute;
+    top: 5px;
+    right: 0px;
+}
+/*############## les polices utilisées sur le site ###########*/
+
+h1 {
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: 500;
+    line-height: 23px;
+}
+h2 {
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 23px;
+}
+/*######### les h3 seront utilisés spécifiquement pour les differents menus######*/
+
+h3 {
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: 500;
+    line-height: 23px;
+}
+li {
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 23px;
+}
+p {
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 23px;
+}
+blockquote {
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 23px;
+}
+pre {
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 23px;
 }
