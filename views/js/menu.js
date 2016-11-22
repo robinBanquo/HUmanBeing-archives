@@ -11,12 +11,12 @@ $(document).ready(function(){
 		$(".menu_expanded").hide();//on commence par fermer ceux qui seraient éventuelleme,t déja ouverts
 		$("#profile_menu").show();
 		$(".big_menu_button").css("text-shadow", $initial_text_shadow);//on réinitialise la couleur de tout les bouttons
+		$(this).css(border,$("#profile_button:hover").css(border));
 	});
 	$("#my_projects_button").click(function(){
 		$(".menu_expanded").hide();
 		$("#my_projects_menu").show();
-		$(".big_menu_button").css("text-shadow", $initial_text_shadow);//on réinitialise la couleur de tout les bouttons
-		$( this ).css("text-shadow", "0 0 30px rgba(0,0,200,1)");
+		$(this).css(border,$("#profile_button:hover").css(border));
 	});
 	$("#ressources_button").click(function(){
 		$(".menu_expanded").hide();
@@ -30,5 +30,5 @@ $(document).ready(function(){
 		$(".big_menu_button").css("text-shadow", $initial_text_shadow);//on réinitialise la couleur de tout les bouttons
 		$( this ).css("text-shadow", "0 0 30px rgba(0,200,0,0.7)");
 	});
-	$(.menu_expanded).show();
+
 });
