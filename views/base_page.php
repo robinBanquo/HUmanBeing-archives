@@ -6,7 +6,7 @@
             <input id="search_button" type="image" src="views/images/loupe.png" />
 		</form>
 		<span id=homepage>
-			<input type='image' src="views/images/logo_hub.gif" /><!-- image à retravailler car pas jolie -->
+			<input type='image' src="views/images/logo_hub.png" /><!-- image à retravailler car pas jolie -->
 		</span>
 
 	</div>
