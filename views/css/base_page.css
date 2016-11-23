@@ -11,22 +11,19 @@ html {
 body {
     margin: 0px;
     min-height: 100%;
-    color: rgb(100, 100, 100);
-    /*dégradé*/
     background-color : rgb(30,33,36);
 }
-
 #global_container {
     position: relative;
     max-width: 1100px;
     min-width: 900px;
-    height: auto;
+    min-height: 1000px;
+    max-height: 100%;
     margin: 0 auto;
-    height: auto;
-    background-color: rgb(40,44,52);
-    border-left: 1px solid black;
-    border-right: 1px solid black;
 
+    background-color: rgb(40,44,52);
+    border-left: 1px solid rgb(24,26,31);
+    border-right: 1px solid rgb(24,26,31);
 }
 
 /* conteneur comprenant juste l'outil recherche et le logo*/
@@ -35,19 +32,36 @@ body {
     position: relative;
     width: 300px;
     top: 0px;
-    left: 110px;
+    left: 180px;
 }
 /*styles du panneau recherche et du logo*/
+#general_header form {
 
-#menu_search_tool {
+    border-radius: 10px;
+    display: block;
     position: absolute;
+    text-align: center;
+}
+#menu_search_tool {
+    border-radius: 10px;
+    position: relative;
     width: 180px;
-    top: 12px;
+    height: 20px;
+    top: 0px;
+    border: 2px solid rgb(157,165,180);
+    color:rgb(157,165,180);
+    background-color: rgb(64, 70, 82);
 }
 #search_button {
-    position: absolute;
-    left: 190px;
-    top: 10px;
+    position: relative;
+    top: 8px;
+    border: 2px solid rgb(157,165,180);
+    border-radius: 40%;
+    background-color: rgb(64,70,82);
+}
+#search_button:hover {
+    background-color: rgb(143,80,88);
+    border: 2px solid rgb(211,211,211);
 }
 /*logo qui renvoie ver la page d'acceuil (log page si pas identifié, navigation si déja identifié)*/
 
@@ -55,6 +69,15 @@ body {
     position: absolute;
     top: 5px;
     right: 0px;
+    border: 1px solid rgb(24,26,31);
+    border-radius: 10%;
+    background-color : rgb(30,33,36);
+    height: 72px;
+    padding: 2px;
+}
+#homepage:hover{
+    background-color: rgb(143,80,88);
+    border: 1px solid rgb(211,211,211);
 }
 /*############## les polices utilisées sur le site ###########*/
 
