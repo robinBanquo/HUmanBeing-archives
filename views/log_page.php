@@ -8,8 +8,11 @@
 		<link rel="stylesheet" type="text/css" href="views/css/log_page.css">
 	</head>
 	<body>
+	<div id="left_margin">
+		hello
+	</div>
 	<div id="container">
-		<?php include("views/base_page.php"); ?> 
+		<?php include("views/base_page.php"); ?>
 
 		<div id="info_search">
 
@@ -27,18 +30,20 @@
 			</ul>
 		</div>
 			<div id="connexion">
-				
+
 			<div id="log_in">
 				<input type="button" name="new_account" value="créer un compte" />
 			</div>
 			<div id="sign_in">
 				<form>
-				<input type="text" placeholder="pseudo" /> 
-				<input type="password" placeholder="mot de passe"  /> 
+				<input type="text" placeholder="pseudo" />
+				<input type="password" placeholder="mot de passe"  />
 				<input type="button" name="connect" value="connexion">
 				</form>
 			</div>
 		</div>
+	</div>
+	<div id="left_margin">
 	</div>
 	</body>
 </html>

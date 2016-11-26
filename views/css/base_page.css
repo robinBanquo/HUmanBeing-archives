@@ -12,6 +12,9 @@ body {
     margin: 0px;
     min-height: 100%;
     background-color : rgb(30,33,36);
+    background-image: url(background/background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 #global_container {
     position: relative;
@@ -24,6 +27,7 @@ body {
     background-color: rgb(40,44,52);
     border-left: 1px solid rgb(24,26,31);
     border-right: 1px solid rgb(24,26,31);
+
 }
 
 /* conteneur comprenant juste l'outil recherche et le logo*/
