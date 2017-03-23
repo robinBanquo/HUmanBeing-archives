@@ -9,6 +9,12 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div id="global_container">
+    <%= render "partials/header" %>
+    <%= render "partials/session_pannel" %>
+      <div id="main">
+        <%= yield %>
+      </div>
+    </div>
   </body>
 </html>

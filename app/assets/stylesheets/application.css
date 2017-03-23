@@ -13,3 +13,10 @@
  *= require_tree .
  *= require_self
  */
+ @import "header";
+#main {
+  position: absolute;
+  width: 700px;
+  top: 120px;
+  right: 170px;
+}
