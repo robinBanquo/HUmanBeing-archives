@@ -16,6 +16,9 @@ $clear_text_color : $margin_color;
    .info{
 
    }
+   .container{
+     background-color: $onglet_color;
+   }
    // the central container
    #global_container {
       position: relative;
@@ -33,7 +36,7 @@ $clear_text_color : $margin_color;
         height: 100px;
         left: 600px;
         right: -1000px;
-        background-color: $onglet_color;
+
       }
 
       #general_header {
@@ -84,42 +87,15 @@ $clear_text_color : $margin_color;
               background-image: url(loupe.png);
               background-repeat: no-repeat;
               background-position: center;
-              background-color: $onglet_color;
               height: inherit;
+              background-color: inherit;
               width: 30px;
               margin: 0px;
-
             }
           }
         }
       }
-      // CSS for the session_pannel
-      #session_pannel_container{
-        position: absolute;
-        border-radius: 0px 0px 10px 10px;
-        top: 0px;
-        height: 100px;
-        left: 200px;
-        width: 200px;
-        background-color: $onglet_color;
-      }
-      #session_pannel{
-        top: 0px;
-        height: 100px;
-        left: 200px;
-        width: 200px;
-        position: absolute;
-        p{
-          color: $margin_color;
-          font-size: 12px;
-          text-align: center;
-          a{
-            color: $margin_color;
 
-          }
-
-        }
-      }
     }
   }
 }

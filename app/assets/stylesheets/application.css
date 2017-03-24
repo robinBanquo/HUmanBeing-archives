@@ -14,9 +14,11 @@
  *= require_self
  */
  @import "header";
+
 #main {
   position: absolute;
   width: 700px;
   top: 120px;
   right: 170px;
+  left: 170px;
 }
