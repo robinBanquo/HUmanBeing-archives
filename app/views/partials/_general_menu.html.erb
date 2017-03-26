@@ -3,7 +3,7 @@
 <nav id="general_menu">
   <ul>
     <li>Messagerie</li>
-    <li>Profil</li>
+    <li><%= link_to 'Profil', controller: "users", action: "show", id: current_user.id %></li>
     <li>Projets</li>
     <li>Ressources</li>
   </ul>
